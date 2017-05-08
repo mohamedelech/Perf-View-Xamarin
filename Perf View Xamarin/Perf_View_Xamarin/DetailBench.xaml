@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Perf_View_Xamarin.DetailBench"
+             Title="Bench Press performance">
+
+    <ScrollView>
+        <StackLayout Padding="10" Orientation="Vertical">
+            <Label Text="Date" FontSize="20"/>
+            <Entry x:Name="date" />
+            <Label Text="Weight Kg" FontSize="20"/>
+            <Entry x:Name="weight" Keyboard="Numeric" />
+            <Label Text="Repetitions" FontSize="20"/>
+            <Entry x:Name="reps" Keyboard="Numeric" />
+            <Label Text="Photo" FontSize="20"/>
+            <Button Text="Import" BackgroundColor="Gray" Clicked="ImportPhoto" x:Name="btnImport"/>
+            <Label x:Name="pathLabel" IsVisible="False" />
+            <Image x:Name="ImportedImage" />
+            <Label Text="Address" FontSize="20"/>
+            <Entry x:Name="address" Keyboard="Text" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Update" BackgroundColor="Green" Margin="0,0,0,0" Clicked="Update"/>
+                <Button Text="Delete" BackgroundColor="Red" Margin="150,0,0,0" Clicked="Delete"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

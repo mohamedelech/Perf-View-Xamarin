@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ViewModel="clr-namespace:Perf_View_Xamarin"
+             x:Class="Perf_View_Xamarin.ListView_Bench"
+             Title="Bench Press">
+    <ContentPage.BindingContext>
+        <ViewModel:ViewModel/>
+    </ContentPage.BindingContext>
+
+    <ListView ItemsSource="{Binding PerformancesList}" 
+              HasUnevenRows="True" 
+              Header=""
+              ItemSelected="Handle_ItemSelected">
+
+        <ListView.HeaderTemplate>
+            <DataTemplate>
+                <Button BackgroundColor="Silver" Text="ADD" Clicked="GoToAddBench"/>
+            </DataTemplate>
+        </ListView.HeaderTemplate>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Vertical"
+                             Padding="20">
+                        <Label Text="{Binding Date}"
+                           TextColor="Black"
+                           FontSize="20"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Weight}"
+                               TextColor="Gray"
+                               FontSize="18"/>
+                            <Label Text="Kg"
+                               TextColor="Gray"
+                               FontSize="18"/>
+                            <Label Text="{Binding Reps}"
+                               TextColor="Gray"
+                               FontSize="18"
+                               Margin="30,0,0,0"/>
+                            <Label Text="Reps"
+                               TextColor="Gray"
+                               FontSize="18"/>
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

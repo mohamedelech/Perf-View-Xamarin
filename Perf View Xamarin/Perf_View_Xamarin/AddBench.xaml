@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Perf_View_Xamarin.AddBench"
+             Title="Enter your Bench Press performance">
+  <ScrollView>
+        <StackLayout Padding="10" Orientation="Vertical">
+            <Label Text="Date" FontSize="20"/>
+            <DatePicker  Format="dd-MM-yyyy" x:Name="date" />
+            <Label Text="Weight Kg" FontSize="20"/>
+            <Entry x:Name="weight" Keyboard="Numeric" />
+            <Label Text="Repetitions" FontSize="20"/>
+            <Entry x:Name="reps" Keyboard="Numeric" />
+            <Label Text="Photo" FontSize="20"/>
+            <Button Text="Import" BackgroundColor="Gray" Clicked="ImportPhoto" x:Name="btnImport"/>
+            <Image x:Name="ImportedImage"/>
+            <Label x:Name="pathLabel" IsVisible="False" />
+            <Label Text="Address" FontSize="20"/>
+            <Entry x:Name="address" Keyboard="Text" />
+            <Button Text="Save" BackgroundColor="Green" Clicked="SaveBenchPerf"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

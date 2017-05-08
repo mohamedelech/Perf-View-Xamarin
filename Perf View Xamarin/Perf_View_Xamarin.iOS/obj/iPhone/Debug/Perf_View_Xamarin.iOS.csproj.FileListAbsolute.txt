@@ -1,0 +1,5 @@
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.iOS\obj\iPhone\Debug\optimized\
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.iOS\obj\iPhone\Debug\Perf_View_Xamarin.iOS.csprojResolveAssemblyReference.cache

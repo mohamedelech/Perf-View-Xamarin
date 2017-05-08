@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Perf_View_Xamarin.MenuPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" Padding="0,0,0,0" BackgroundColor="Transparent">
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Button Text="Photo"/>
+                <Button Text="Video"/>
+                <Button Text="Agenda"/>
+                <Button Text="Saisie Perf"/>
+                <Button Text="Boussole"/>
+                <Button Text="Réalité augmentée"/>
+                <Button Text="Reconnaitre mouvement"/>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage  Padding="0,0,0,0" Title="Perf View">
+                    <Button BackgroundColor="Green" Text=" Bench Press " FontSize="Large" TextColor="White"
+                            HorizontalOptions="Center" VerticalOptions="Start" Margin="20" 
+                            Clicked="GoToBenchListAsync"/>
+                </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>
