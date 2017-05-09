@@ -6,8 +6,8 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" Padding="0,0,0,0" BackgroundColor="Transparent">
             <StackLayout VerticalOptions="FillAndExpand">
-                <Button Text="Photo"/>
-                <Button Text="Video"/>
+                <Button Text="Photo" Clicked="TakePhoto"/>
+                <Button Text="Video" Clicked="TakeVideo"/>
                 <Button Text="Agenda"/>
                 <Button Text="Saisie Perf"/>
                 <Button Text="Boussole"/>

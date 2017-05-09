@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="ch.heg.PerfView">
 	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
-	<application android:label="Perf_View_Xamarin.Android"></application>
+	<application android:label="Perf_View_Xamarin.Android">
+		<provider android:name="android.support.v4.content.FileProvider" android:authorities="ch.heg.PerfView.fileprovider" android:exported="false" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
+		</provider>
+	</application>
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -10,4 +14,6 @@
 	<uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" android:required="true" />
 </manifest>

@@ -18,10 +18,10 @@ Plugin.Geolocator.GeolocationSingleListener, Plugin.Geolocator;md57e7f66f929d23b
 Plugin.Geolocator.GeolocationSingleListener, Plugin.Geolocator, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null;md57e7f66f929d23b17b7be88e2c5a0baea.GeolocationSingleListener
 Plugin.Geolocator.GeolocationSingleListener;md57e7f66f929d23b17b7be88e2c5a0baea.GeolocationSingleListener
 plugin.geolocator.GeolocationSingleListener;md57e7f66f929d23b17b7be88e2c5a0baea.GeolocationSingleListener
-Plugin.Media.MediaPickerActivity, Plugin.Media;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
-Plugin.Media.MediaPickerActivity, Plugin.Media, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
-Plugin.Media.MediaPickerActivity;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
-plugin.media.MediaPickerActivity;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
+Plugin.Media.MediaPickerActivity, Plugin.Media;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity
+Plugin.Media.MediaPickerActivity, Plugin.Media, Version=2.6.1.0, Culture=neutral, PublicKeyToken=null;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity
+Plugin.Media.MediaPickerActivity;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity
+plugin.media.MediaPickerActivity;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

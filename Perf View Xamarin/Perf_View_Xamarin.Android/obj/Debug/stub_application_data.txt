@@ -1,2 +1,2 @@
 android.app.Application
-Perf_View_Xamarin.Android
+ch.heg.PerfView
