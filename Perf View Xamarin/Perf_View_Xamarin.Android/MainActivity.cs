@@ -24,6 +24,10 @@ namespace Perf_View_Xamarin.Droid
             await CrossMedia.Current.Initialize();
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            await CrossMedia.Current.Initialize();
+            XamForms.Controls.Droid.Calendar.Init();
+
             LoadApplication(new App());
         }
     

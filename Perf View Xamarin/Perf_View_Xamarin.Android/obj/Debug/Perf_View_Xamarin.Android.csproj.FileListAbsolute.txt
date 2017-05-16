@@ -118,5 +118,7 @@ C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamar
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Media.Abstractions.dll.mdb
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Media.Abstractions.dll.mdb
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Media.dll.mdb
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\XamForms.Controls.Calendar.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\XamForms.Controls.Calendar.Droid.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\Perf_View_Xamarin.Android.dll.mdb
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Perf_View_Xamarin.Android.dll.mdb

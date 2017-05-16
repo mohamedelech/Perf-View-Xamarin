@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ViewModelAgenda="clr-namespace:Perf_View_Xamarin"
+             x:Class="Perf_View_Xamarin.listAgenda">
+
+    <ContentPage.BindingContext>
+        <ViewModelAgenda:ViewModelAgenda/>
+    </ContentPage.BindingContext>
+    <ListView ItemsSource="{Binding AgendasList}" 
+              HasUnevenRows="True" 
+              Header="">
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Vertical"
+                             Padding="20">
+                        <Label Text="{Binding Date}"
+                           TextColor="Black"
+                           FontSize="20"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

@@ -8,7 +8,7 @@
             <StackLayout VerticalOptions="FillAndExpand">
                 <Button Text="Photo"/>
                 <Button Text="Video"/>
-                <Button Text="Agenda"/>
+                <Button Text="Agenda" Clicked="AgendaPage"/>
                 <Button Text="Saisie Perf"/>
                 <Button Text="Boussole"/>
                 <Button Text="Réalité augmentée"/>

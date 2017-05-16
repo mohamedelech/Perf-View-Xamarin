@@ -30,6 +30,8 @@ C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamar
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Base.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Basement.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\XamForms.Controls.Calendar.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\XamForms.Controls.Calendar.Droid.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\mscorlib.dll

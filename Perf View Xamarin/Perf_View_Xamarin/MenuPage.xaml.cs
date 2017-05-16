@@ -23,5 +23,10 @@ namespace Perf_View_Xamarin
         {
             await Navigation.PushAsync(new ListView_Bench());
         }
+
+        private async void AgendaPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Calendar());
+        }
     }
 }
