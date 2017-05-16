@@ -59,12 +59,16 @@ namespace Perf_View_Xamarin
             DateTime dateTime = e.DateTime.Date;
             var specialDate = new SpecialDate(new DateTime(dateTime.Date.Year, dateTime.Date.Month, dateTime.Date.Day));
 
-            if (dates.Contains(specialDate))
+            if (dates.Contains(specialDate) && _sqLiteConnection.Get<Agenda>().Date == dateTime)
             {
-                Agenda agenda = _sqLiteConnection.FindWithQuery<Agenda>("SELECT FROM Agenda WHERE Date = " + dateTime );
-                _sqLiteConnection.Delete<Agenda>(agenda);
+                Agenda agenda = _sqLiteConnection.Get<Agenda>(specialDate);
+                //_sqLiteConnection.Delete<Agenda>(agenda);
+                _sqLiteConnection.DeleteAll<Agenda>();
 
-                dates.Remove(specialDate);
+             // dates.Remove(specialDate);
+                dates.Clear();
+
+                _vm.Attendances = new ObservableCollection<SpecialDate>(dates);
             }
             else
             {
