@@ -5,8 +5,8 @@
              x:Class="Perf_View_Xamarin.Calendar"
              Title="Agenda">
 
-    <ContentView.Content>
-        <controls:Calendar 
+        <ContentView.Content>
+            <controls:Calendar 
 			Padding="10,0,10,0" 
 			SelectedBorderWidth="4" 
             SelectedBackgroundColor="Red"
@@ -17,11 +17,11 @@
 			TitleLabelTextColor="Black"
 			TitleLeftArrowTextColor="Blue"
             TitleRightArrowTextColor="Blue"
-			SelectedDate="{Binding Date}"
+			SelectedDate="{Binding Date}"    
 			SpecialDates="{Binding Attendances}"
 			DateCommand="{Binding DateChosen}"
             DateClicked="Calendar_DateClicked">
-        </controls:Calendar>
-    </ContentView.Content>
-    
+            </controls:Calendar>
+        </ContentView.Content>
+
 </ContentPage>

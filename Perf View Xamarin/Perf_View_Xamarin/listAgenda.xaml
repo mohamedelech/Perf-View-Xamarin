@@ -9,7 +9,8 @@
     </ContentPage.BindingContext>
     <ListView ItemsSource="{Binding AgendasList}" 
               HasUnevenRows="True" 
-              Header="">
+              Header=""            
+              ItemSelected="Handle_ItemSelected">
 
         <ListView.ItemTemplate>
             <DataTemplate>

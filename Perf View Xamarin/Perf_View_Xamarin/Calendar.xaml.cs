@@ -57,28 +57,18 @@ namespace Perf_View_Xamarin
         private async Task Calendar_DateClicked(object sender, XamForms.Controls.DateTimeEventArgs e)
         {
             DateTime dateTime = e.DateTime.Date;
-            var specialDate = new SpecialDate(new DateTime(dateTime.Date.Year, dateTime.Date.Month, dateTime.Date.Day));
+            List<Agenda> ag = _sqLiteConnection.Query<Agenda>("SELECT * FROM Agenda WHERE Date = ?", dateTime);
 
-            if (dates.Contains(specialDate) && _sqLiteConnection.Get<Agenda>().Date == dateTime)
-            {
-                Agenda agenda = _sqLiteConnection.Get<Agenda>(specialDate);
-                //_sqLiteConnection.Delete<Agenda>(agenda);
-                _sqLiteConnection.DeleteAll<Agenda>();
-
-             // dates.Remove(specialDate);
-                dates.Clear();
-
-                _vm.Attendances = new ObservableCollection<SpecialDate>(dates);
-            }
-            else
+            if (ag.Count() == 0)
             {
                 _sqLiteConnection.Insert(new Agenda
                 {
                     Date = dateTime
                 });
-            }
 
-            await Navigation.PushAsync(new listAgenda());
+                await Navigation.PushAsync(new listAgenda());
+            }              
         }
+        
     }
 }
