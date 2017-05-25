@@ -102,6 +102,8 @@ class MonoPackageManager_Resources {
 		"FAB.Droid.dll",
 		"FAB.Forms.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Compass.Abstractions.dll",
+		"Plugin.Compass.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.Abstractions.dll",
 		"Plugin.Geolocator.dll",

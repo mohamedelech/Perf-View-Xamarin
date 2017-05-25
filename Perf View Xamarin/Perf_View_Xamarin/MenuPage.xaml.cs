@@ -28,5 +28,10 @@ namespace Perf_View_Xamarin
         {
             await Navigation.PushAsync(new Calendar());
         }
+
+        private async void CompassPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Compass());
+        }
     }
 }

@@ -123,6 +123,12 @@
     <Reference Include="FAB.iOS, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\FAB.Forms.2.1.1\lib\Xamarin.iOS10\FAB.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.Compass, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Plugin.Compass.2.0.0\lib\Xamarin.iOS10\Plugin.Compass.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Compass.Abstractions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Plugin.Compass.2.0.0\lib\Xamarin.iOS10\Plugin.Compass.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Plugin.Geolocator, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.dll</HintPath>
     </Reference>

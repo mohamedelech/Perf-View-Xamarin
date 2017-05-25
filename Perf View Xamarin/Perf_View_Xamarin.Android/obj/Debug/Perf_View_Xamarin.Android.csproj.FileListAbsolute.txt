@@ -120,5 +120,16 @@ C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamar
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Media.dll.mdb
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\XamForms.Controls.Calendar.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\XamForms.Controls.Calendar.Droid.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.Abstractions.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.pdb
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.xml
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.Abstractions.pdb
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.Abstractions.xml
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.dll.mdb
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Plugin.Compass.Abstractions.dll.mdb
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Compass.Abstractions.dll.mdb
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Compass.dll.mdb
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\res\drawable\compass.png
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\Perf_View_Xamarin.Android.dll.mdb
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\bin\Debug\Perf_View_Xamarin.Android.dll.mdb

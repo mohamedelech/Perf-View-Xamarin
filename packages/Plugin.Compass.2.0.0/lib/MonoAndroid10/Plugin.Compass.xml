@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Compass</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Compass.CrossCompass">
+            <summary>
+            Cross platform Compass implementations
+            </summary>
+        </member>
+        <member name="P:Plugin.Compass.CrossCompass.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CrossCompass.Dispose">
+            <summary>
+            Dispose of everything 
+            </summary>
+        </member>
+        <member name="T:Plugin.Compass.CompassImplementation">
+            <summary>
+            Compass Implementation
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:Plugin.Compass.CompassImplementation.IsSupported">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Start">
+            <summary>
+            Start tracking
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Stop">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.OnAccuracyChanged(Android.Hardware.Sensor,Android.Hardware.SensorStatus)">
+            <summary>
+            
+            </summary>
+            <param name="sensor"></param>
+            <param name="accuracy"></param>
+        </member>
+        <member name="E:Plugin.Compass.CompassImplementation.CompassChanged">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.OnCompassChanged(Plugin.Compass.Abstractions.CompassChangedEventArgs)">
+            <summary>
+            When connectivity changes
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.OnSensorChanged(Android.Hardware.SensorEvent)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Dispose">
+            <summary>
+            Dispose of class and parent classes
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Finalize">
+            <summary>
+            Dispose up
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Dispose(System.Boolean)">
+            <summary>
+            Dispose method
+            </summary>
+            <param name="disposing"></param>
+        </member>
+    </members>
+</doc>

@@ -46,6 +46,9 @@
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
     <Compile Include="CalendarVM.cs" />
+    <Compile Include="Compass.xaml.cs">
+      <DependentUpon>Compass.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DetailBench.xaml.cs">
       <DependentUpon>DetailBench.xaml</DependentUpon>
     </Compile>
@@ -75,6 +78,12 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Plugin.Compass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Plugin.Compass.2.0.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Compass.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Compass.Abstractions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Plugin.Compass.2.0.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Compass.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Plugin.Geolocator, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Geolocator.dll</HintPath>
     </Reference>
@@ -140,6 +149,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="compass.png" />
     <Content Include="SQLite-AppSample\readme.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +166,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="listAgenda.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Compass.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

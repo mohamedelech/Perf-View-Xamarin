@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Compass</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Compass.CompassImplementation">
+            <summary>
+            Compass Implementation
+            </summary>
+        </member>
+        <member name="P:Plugin.Compass.CompassImplementation.IsSupported">
+            <summary>
+            Gets if compass is supported
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Start">
+            <summary>
+            Start compass
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Stop">
+            <summary>
+            Stop compass
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CompassImplementation.Dispose(System.Boolean)">
+            <summary>
+            Dispose
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:Plugin.Compass.CrossCompass">
+            <summary>
+            Cross platform Compass implementations
+            </summary>
+        </member>
+        <member name="P:Plugin.Compass.CrossCompass.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.CrossCompass.Dispose">
+            <summary>
+            Dispose of everything 
+            </summary>
+        </member>
+    </members>
+</doc>

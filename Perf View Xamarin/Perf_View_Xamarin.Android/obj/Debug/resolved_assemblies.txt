@@ -2,6 +2,8 @@ C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamar
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\FAB.Droid.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\FAB.Forms.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\FormsViewGroup.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Compass.Abstractions.dll
+C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Compass.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin.Android\obj\Debug\android\assets\Plugin.Geolocator.dll

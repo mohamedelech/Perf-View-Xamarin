@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Compass.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Compass.Abstractions.BaseCompass">
+            <summary>
+            Base class for compass
+            </summary>
+        </member>
+        <member name="P:Plugin.Compass.Abstractions.BaseCompass.IsSupported">
+            <summary>
+            Gets if supported
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.BaseCompass.OnCompassChanged(Plugin.Compass.Abstractions.CompassChangedEventArgs)">
+            <summary>
+            When compass changes
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.BaseCompass.Start">
+            <summary>
+            Start tracking changes
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.BaseCompass.Stop">
+            <summary>
+            Stop tracking changes
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.BaseCompass.Dispose">
+            <summary>
+            Dispose of class and parent classes
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.BaseCompass.Finalize">
+            <summary>
+            Dispose up
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.BaseCompass.Dispose(System.Boolean)">
+            <summary>
+            Dispose method
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:Plugin.Compass.Abstractions.CompassChangedEventArgs">
+            <summary>
+            Compass event args
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.CompassChangedEventArgs.#ctor(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="heading"></param>
+        </member>
+        <member name="P:Plugin.Compass.Abstractions.CompassChangedEventArgs.Heading">
+            <summary>
+            Heading
+            </summary>
+        </member>
+        <member name="T:Plugin.Compass.Abstractions.ICompass">
+            <summary>
+            Compass Interface
+            </summary>
+        </member>
+        <member name="P:Plugin.Compass.Abstractions.ICompass.IsSupported">
+            <summary>
+            Is compass supported on this device
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.ICompass.Start">
+            <summary>
+            Start tracking changes
+            </summary>
+        </member>
+        <member name="M:Plugin.Compass.Abstractions.ICompass.Stop">
+            <summary>
+            Stop tracking changes
+            </summary>
+        </member>
+        <member name="E:Plugin.Compass.Abstractions.ICompass.CompassChanged">
+            <summary>
+            Triggered with compass changes
+            </summary>
+        </member>
+    </members>
+</doc>
