@@ -28,12 +28,14 @@ namespace Perf_View_Xamarin
         private async void TakePhoto(object sender, EventArgs e)
         {
             await CrossMedia.Current.Initialize();
-    
+            System.Diagnostics.Debug.WriteLine("OK : await CrossMedia.Current.Initialize()");
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
                         await DisplayAlert("No Camera", " No camera available.", "OK");
                 return;
             }
+
+            System.Diagnostics.Debug.WriteLine("OK 2");
 
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
@@ -43,7 +45,9 @@ namespace Perf_View_Xamarin
                 if (file == null)
                     return;
 
-                await DisplayAlert("File Location", file.Path, "OK");
+            System.Diagnostics.Debug.WriteLine("OK 3");
+
+            //await DisplayAlert("File Location", file.Path, "OK");
         }
 
         private async void TakeVideo(object sender, EventArgs e)

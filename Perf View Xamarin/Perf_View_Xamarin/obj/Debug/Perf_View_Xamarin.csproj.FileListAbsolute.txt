@@ -41,9 +41,3 @@ C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamar
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\obj\Debug\Perf_View_Xamarin.csprojResolveAssemblyReference.cache
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\obj\Debug\Perf_View_Xamarin.dll.mdb
 C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\bin\Debug\Perf_View_Xamarin.dll.mdb
-C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\obj\Debug\Perf_View_Xamarin.dll.mdb
-C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\bin\Debug\Perf_View_Xamarin.dll.mdb
-C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\obj\Debug\Perf_View_Xamarin.dll.mdb
-C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\bin\Debug\Perf_View_Xamarin.dll.mdb
-C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\obj\Debug\Perf_View_Xamarin.dll.mdb
-C:\Users\mohamed.elech\Desktop\6emeSemestre\TB\Perf View Xamarin\Perf View Xamarin\Perf_View_Xamarin\bin\Debug\Perf_View_Xamarin.dll.mdb
