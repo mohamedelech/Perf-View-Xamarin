@@ -17,7 +17,8 @@ namespace Perf_View_Xamarin
         public MenuPage()
         {
             InitializeComponent();
-           // NavigationPage.SetHasNavigationBar(this, false);
+            // NavigationPage.SetHasNavigationBar(this, false);
+            
         }
 
         private async void GoToBenchListAsync(object sender, EventArgs e)
@@ -25,13 +26,13 @@ namespace Perf_View_Xamarin
             await Navigation.PushAsync(new ListView_Bench());
         }
 
-        private async void TakePhoto(object sender, EventArgs e)
+        public async void TakePhoto(object sender, EventArgs e)
         {
             await CrossMedia.Current.Initialize();
             System.Diagnostics.Debug.WriteLine("OK : await CrossMedia.Current.Initialize()");
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
-                        await DisplayAlert("No Camera", " No camera available.", "OK");
+                await DisplayAlert("No Camera", " No camera available.", "OK");
                 return;
             }
 
@@ -39,18 +40,20 @@ namespace Perf_View_Xamarin
 
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
-                    SaveToAlbum = true
+                     SaveToAlbum = true
             });
 
-                if (file == null)
-                    return;
-
             System.Diagnostics.Debug.WriteLine("OK 3");
+
+            if (file == null)
+                return;
+
+            System.Diagnostics.Debug.WriteLine("OK 4");
 
             //await DisplayAlert("File Location", file.Path, "OK");
         }
 
-        private async void TakeVideo(object sender, EventArgs e)
+        public async void TakeVideo(object sender, EventArgs e)
         {
             await CrossMedia.Current.Initialize();
 
@@ -70,5 +73,6 @@ namespace Perf_View_Xamarin
 
             await DisplayAlert("File Location", file.Path, "OK");
         }
+
     }
 }
