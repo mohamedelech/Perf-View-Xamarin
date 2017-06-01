@@ -33,5 +33,10 @@ namespace Perf_View_Xamarin
         {
             await Navigation.PushAsync(new Compass());
         }
+
+        private async void AccelerometrePage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Accelerometre());
+        }
     }
 }

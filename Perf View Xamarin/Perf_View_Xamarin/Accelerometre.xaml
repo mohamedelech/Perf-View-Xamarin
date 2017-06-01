@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Perf_View_Xamarin.Accelerometre">
+    <ScrollView>
+        <StackLayout Padding="10" Orientation="Vertical">
+            <Button Text="Start" Clicked="BtnStart_OnClicked"/>
+            <Button Text="Stop"  Clicked="BtnStop_OnClicked"/>
+            <Label Text="Axe X" FontSize="20"/>
+            <Label x:Name="lblXAxis" FontSize="20"/>
+            <Label Text="Axe Y" FontSize="20"/>
+            <Label x:Name="lblYAxis" FontSize="20"/>
+            <Label Text="Axe Z" FontSize="20"/>
+            <Label x:Name="lblZAxis" FontSize="20"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

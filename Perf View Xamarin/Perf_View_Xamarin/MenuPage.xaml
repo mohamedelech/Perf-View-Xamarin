@@ -12,7 +12,7 @@
                 <Button Text="Saisie Perf"/>
                 <Button Text="Boussole" Clicked="CompassPage"/>
                 <Button Text="Réalité augmentée"/>
-                <Button Text="Reconnaitre mouvement"/>
+                <Button Text="Reconnaitre mouvement" Clicked="AccelerometrePage"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

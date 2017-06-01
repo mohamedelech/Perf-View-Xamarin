@@ -117,6 +117,15 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="AudioManager.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\XamarinAudioManager.0.8.6\lib\Xamarin.iOS10\AudioManager.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceMotion.Plugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugin.DeviceMotion.1.1.2\lib\Xamarin.iOS10\DeviceMotion.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceMotion.Plugin.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugin.DeviceMotion.1.1.2\lib\Xamarin.iOS10\DeviceMotion.Plugin.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="FAB.Forms, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\FAB.Forms.2.1.1\lib\Xamarin.iOS10\FAB.Forms.dll</HintPath>
     </Reference>
