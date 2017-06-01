@@ -42,7 +42,7 @@ namespace Perf_View_Xamarin
             address.Text = posLocator.Latitude.ToString();
 
             //var possibleAddresses = await geoCoder.GetAddressesForPositionAsync(position);
-            //foreach (var adr in possibleAddresses)         
+           //foreach (var adr in possibleAddresses)
             // address.Text += adr + "\n";
 
         } 

@@ -10,6 +10,4 @@
 	<uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <meta-data android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCRF2sz8KQ4ntTBCe5dX1XV3UH9CyccVUw" />
 </manifest>
